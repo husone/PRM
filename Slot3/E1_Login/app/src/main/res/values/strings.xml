@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="sign_in">Sign in</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot your login details? Get help sigining in.</string>
+    <string name="or_sign_in_with">OR</string>
+    <string name="login_with_fb">Login With Facebook</string>
+    <string name="todo">TODO</string>
+</resources>

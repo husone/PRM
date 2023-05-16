@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Number 1"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num1"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Number 2"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
+
+
+    <LinearLayout
+        android:id="@+id/addsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num2"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="ADD"
+            android:onClick="onAdd"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="SUB"
+            android:onClick="onSub"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/muldiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addsub"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="MUL"
+            android:onClick="onMul"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="DIV"
+            android:onClick="onDiv"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muldiv"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Result:"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+</RelativeLayout>
