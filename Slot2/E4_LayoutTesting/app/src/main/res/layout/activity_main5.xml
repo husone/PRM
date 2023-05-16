@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hop1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/hop2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/hop1"
+        android:background="@color/teal_200"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/hop3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/hop1"
+        android:background="#8e0917"
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/hop4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/hop2"
+        android:layout_toRightOf="@+id/hop3"
+        android:background="#edcb25"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="10pt" />
+</RelativeLayout>

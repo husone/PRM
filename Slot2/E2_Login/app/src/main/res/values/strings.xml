@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="sign_in">Sign in</string>
+    <string name="username">Username</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="todo">TODO</string>
+</resources>
