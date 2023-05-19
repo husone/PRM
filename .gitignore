@@ -1,0 +1,8 @@
+#remove all file
+# unignore src folder 
+# !/E4_LayourTesting/*
+
+*.*
+!**/src/**
+!/.gitignore
+```
