@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editTextName"
+        android:text="Your name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonClickMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me"/>
+    <Button
+        android:id="@+id/buttonDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIAL"/>
+    <EditText
+        android:id="@+id/editTextURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.vnexpress.net"/>
+    <Button
+        android:id="@+id/buttonURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse URL"/>
+</LinearLayout>
