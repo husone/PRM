@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/idEdtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Product Name" />
+    <!--Edit text to enter product duration-->
+    <EditText
+        android:id="@+id/idEdtProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Product Description" />
+    <!--Edit text to display product tracks-->
+    <EditText
+        android:id="@+id/idEdtProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:hint="Enter Product Price" />
+    <!--Edit text for product description-->
+    <Button
+        android:id="@+id/idBtnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Product"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:id="@+id/idBtnReadProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Read All Products"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>
